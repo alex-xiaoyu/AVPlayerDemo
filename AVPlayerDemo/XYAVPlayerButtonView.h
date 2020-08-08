@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  XYAVPlayerButtonView.h
 //  AVPlayerDemo
 //
 //  Created by 伍博宇 on 2020/8/8.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface XYAVPlayerButtonView : UIView
 
 @end
 
+NS_ASSUME_NONNULL_END
